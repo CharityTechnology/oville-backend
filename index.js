@@ -15,7 +15,7 @@ const { type } = require("os");
 app.use(cors());
 //Database Connection with MongoDB
 
-mongoose.connect(process.env.API_Key)
+mongoose.connect("mongodb+srv://CharityTechnologies:Charity112233@cluster0.sobnd5v.mongodb.net/e-commerce")
 //API Creation
 
 app.get("/", (req,res)=>{
